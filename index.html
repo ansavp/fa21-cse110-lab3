@@ -27,6 +27,8 @@
         <h2>Meeting 3: Brainstorming</h2>
         <h3>Date & Time: 10-02-2021, 12:00PM</h3>
         </header>
+
+        <main>
         <br><b>Attendance  List: </b> Aneesh, Tejasvin, Ansav, Hari
         <br><br><b>Agenda:</b> Erangle 2.0
         <br><br>
@@ -35,11 +37,11 @@
         <div id="Previous">
             <h2>Previous Tasks</h2>
             <h4>09/27/2021</h4>
-               <p> We planned the upcoming updates for the game. Added several features <span style="color:maroon">Increased red Zone damage. Also, discussed the addition of new maps. Planned an esports event for global championship with a big prizepool.
-                 Planned list of invited teams</span>. </p>
+               <p> We planned the upcoming updates for the game. Added several features, Increased Red Zone damage. Also, discussed the addition of new maps. Planned an esports event for global championship with a big prizepool.
+                 Planned list of invited teams. </p>
                 <details>
                 <summary>Updated Features</summary>
-                Added the following features last time-
+                <em>Added the following features last time:</em>
                 <ul>
                     <li>Updated Cheer Park</li>
                     <li>Added M762</li>
@@ -47,7 +49,7 @@
                 </ul>
                 </details>
                 <br>
-                The game performance had a few bug issues. However, the added features were implemented well in the gaming environment <br/>
+                <span style="color:maroon"></span>The game performance had a few bug issues. However, the added features were implemented well in the gaming environment</span><br/>
                 <br/>
         </div>
 
@@ -76,7 +78,7 @@
 
         <p>
         <b>Comments:</b>
-        Need to modify designs from last meeting, Update Cheer Park, Add new outfits
+       <i> Need to modify designs from last meeting, Update Cheer Park, Add new outfits</i>
         </p>
 
         <div>
@@ -84,6 +86,8 @@
                    src = "Resources/cheer.jpeg"
                    alt = "Cheer Park">
         </div>
+
+        <hr>
 
 
         Below is a glimpse of audio and video elements added to the game:
@@ -101,11 +105,51 @@
                   </video>
             </li>
         </ul>
+        </main>
+
+        <footer>
+            <form>
+                <fieldset>
+                <h3>Meeting Log:</h3>
+                <label for="datee">Date:</label><br>
+                <input type="date" id="datee" name="datee"> <br>
+                <label for="Final">Finalized Product?</label><br>
+                <input type="checkbox" id="Final" name="Final"> <br>
+                <label for="day">Choose a day for next meeting:</label><br>
+                <input list ="day" name="day" id="day">
+                <datalist id="day">
+                    <option value="Monday">
+                    <option value="Tuesday">
+                    <option value="Wednesday">
+                </datalist> <br>
+                <label>Did we propose new plans?</label><br>
+                <input type="radio" id="plans" name="Plans" value="yes">
+                <label for="plans">Yes</label><br>
+                <input type="radio" id="plans" name="Plans" value="no">
+                <label for="plans">No</label><br>
+                <label for="Entry">Entry:</label><br>
+                <textarea name="Entry" id="Entry" cols="30" rows="10">Write Here...
+                </textarea> <br>
+                <label for="fav">What is your favorite new feature:</label>
+                <select name="fav" id="fav">
+                    <option value="cheerpark">Cheer Park</option>
+                    <option value="m762">M762</option>
+                    <option value="glass">Glass Windows</option>
+                    <option value="convertible">Convertible</option>
+                </select> <br>
+                <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </footer>
+    </body>
+</html>
 
 
 
 
-       
+
+        </footer>
+
 
 
     </body>
