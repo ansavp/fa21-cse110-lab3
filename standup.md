@@ -9,7 +9,7 @@
 ## Agenda:
 
 
-## Warmup:
+## Warmup: (Duration)
 
 1. What did you accomplish yesterday?
 2. What issues did you run into?
@@ -18,7 +18,7 @@
 
 
 
-## Brainstorming Session
+## Brainstorming Session (Duration)
 
 <br>
 
@@ -27,5 +27,7 @@
 <br>
 
 
-## End Meeting
+## End Meeting 
+
+make note of total meeting minutes
 
