@@ -8,7 +8,6 @@
 
 ## Agenda:
 
-***
 
 Warmup:
 
@@ -17,12 +16,9 @@ Warmup:
 3. What is your goal today?
 4. Do you have any feedback?
 
-***
+
 
 ## Brainstorming Session
-
-
-***
 
 ## Action Items and Next Steps
 
