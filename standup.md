@@ -9,7 +9,7 @@
 ## Agenda:
 
 
-Warmup:
+## Warmup:
 
 1. What did you accomplish yesterday?
 2. What issues did you run into?
@@ -20,7 +20,11 @@ Warmup:
 
 ## Brainstorming Session
 
+<br>
+
 ## Action Items and Next Steps
+
+<br>
 
 
 ## End Meeting
