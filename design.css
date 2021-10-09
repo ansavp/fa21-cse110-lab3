@@ -1,0 +1,111 @@
+*{
+    font-family: 'Zen Dots', cursive;
+ 
+}
+h1 {
+    color: navy; 
+    font-size: 1cm;           /*this changes header color */
+    margin: 5mm 5mm 5mm 5mm;
+    text-align: center;
+}
+h2 {
+    color: #d49ed4;
+    font-size: 0.3in;
+}
+h1, h2 {
+    font-family: sans-serif;
+}
+h4 {
+    color: rgb(95,35,45);
+    background-color: hsl(120, 100%, 50%);
+    display: inline;
+}
+.highlight {
+    font-size:x-small;
+}
+.redpara {
+    background-color: red;
+    font-size: 2.1vmax;
+    margin:auto;
+}
+div > span {
+    background-color: DodgerBlue;
+    display: inline-block;
+    font-size: 2.1vmin ;
+}
+#Sunday {
+    background-color: skyblue;
+  }
+.box {
+    background-color: #307abb;
+    border: 5px solid #0b8b56;
+    border-radius: 45px;
+    color: #fff;
+    display: flex;
+  }
+h1 {
+    border-top: 2px dotted rebeccapurple;
+    border-width: 0.1cm;
+    border-color: violet;
+    border-style: dotted;
+    border-bottom: 1em double rgb(24, 163, 78);
+    border-radius: 55px;
+  }
+#akm{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 15mm;
+}
+.hero{
+  padding: 13mm 0mm 0mm 20mm;
+  padding-bottom: 05mm;
+  
+}
+video {
+    height:  5cm;
+    width: 5cm;
+    position: static;
+    left: 5cm;
+}
+img {
+    max-width:  5cm;
+    max-height: 5cm;
+    position:relative;
+    left: 5cm;
+}
+a:hover{
+    color:limegreen;
+}
+a:active{
+    color: tan;
+}
+.flexo{
+    display: flex;
+}
+.Griddy{
+    display: grid;
+}
+@media (min-width: 800px) {
+    p{
+        font-size: 1rem;
+    }
+} 
+a[href^="#"] {
+    background-color: gold;
+  }
+
+div  p {
+    background-color: tomato;
+}
+div > p {
+    background-color: rgb(118, 129, 19);
+}
+img + p {
+    background-color:rgb(170, 245, 239);
+}
+div ~ p {
+    background-color: rgb(214, 20, 214);
+}
+.ansav{
+    color:yellowgreen;
+}
