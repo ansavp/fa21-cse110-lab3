@@ -9,9 +9,9 @@ h1 {
     text-align: center;
 }
 h1 {
-    border-top: 2px dotted rgb(24, 190, 60);
     border-width: 0.1cm;
     border-color: rgb(175, 99, 175);
+    border-top: 2px dotted rgb(24, 190, 60);
     border-style: dotted;
     border-bottom: 1em double rgb(117, 35, 211);
     border-radius: 55px;
@@ -55,8 +55,8 @@ div > span {
 
 .box {
     background-color: #af8054;
-    border: 5px solid #0a9c5f;
-    border-radius: 45px;
+    border: 6px solid #0a9c5f;
+    border-radius: 46px;
     color: #fff;
     display: flex;
   }
@@ -64,10 +64,10 @@ div > span {
 #akm{
     text-align: center;
     text-decoration: underline;
-    margin-bottom: 15mm;
+    margin-bottom: 14mm;
 }
 .hero{
-  padding: 13mm 0mm 0mm 20mm;
+  padding: 14mm 0.1mm 0.1mm 21mm;
   padding-bottom: 05mm;
   
 }
