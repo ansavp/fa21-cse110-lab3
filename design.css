@@ -1,29 +1,40 @@
 *{
-    font-family: 'Zen Dots', cursive;
+    font-family: 'Papyrus', fantasy;
  
 }
 h1 {
-    color: navy; 
-    font-size: 1cm;           /*this changes header color */
-    margin: 5mm 5mm 5mm 5mm;
+    color: rgb(214, 93, 13); 
+    font-size: 1.5cm;           /*this changes header color */
+    margin: 4mm 4mm 4mm 4mm;
     text-align: center;
 }
+h1 {
+    border-top: 2px dotted rgb(127, 26, 228);
+    border-width: 0.1cm;
+    border-color: rgb(175, 99, 175);
+    border-style: dotted;
+    border-bottom: 1em double rgb(24, 163, 78);
+    border-radius: 55px;
+  }
 h2 {
-    color: #d49ed4;
+    color: #490cd8;
     font-size: 0.3in;
 }
-h1, h2 {
+h1, h2, h3 {
     font-family: sans-serif;
 }
 h4 {
-    color: rgb(95,35,45);
-    background-color: hsl(120, 100%, 50%);
+    color: rgb(9, 185, 230);
+    background-color: hsl(135, 80%, 29%);
     display: inline;
 }
 .highlight {
     font-size:x-small;
 }
-.redpara {
+#Previous {
+    background-color: skyblue;
+  }
+.mickey {
     background-color: red;
     font-size: 2.1vmax;
     margin:auto;
@@ -41,24 +52,15 @@ div > span {
     display: inline-block;
     font-size: 2.1vmin ;
 }
-#Sunday {
-    background-color: skyblue;
-  }
+
 .box {
-    background-color: #307abb;
-    border: 5px solid #0b8b56;
+    background-color: #af8054;
+    border: 5px solid #0a9c5f;
     border-radius: 45px;
     color: #fff;
     display: flex;
   }
-h1 {
-    border-top: 2px dotted rebeccapurple;
-    border-width: 0.1cm;
-    border-color: violet;
-    border-style: dotted;
-    border-bottom: 1em double rgb(24, 163, 78);
-    border-radius: 55px;
-  }
+
 #akm{
     text-align: center;
     text-decoration: underline;
@@ -90,12 +92,12 @@ a:active{
 .flexo{
     display: flex;
 }
-.Griddy{
+.Grid{
     display: grid;
 }
-@media (min-width: 800px) {
+@media (min-width: 789px) {
     p{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 } 
 a[href^="#"] {
